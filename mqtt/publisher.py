@@ -34,10 +34,10 @@ while Connected != True:    #Wait for connection
 try:
     while True: 
         # value = input('Enter the message:')
-        client.publish('python', 'Nama : Korezy Sipahelut')
-        client.publish('python/CA171/mqtt', 'netprogCA171 Korezy')
-        client.publish('python/CA171/socket', 'netprogCA171 Korezy')
-        client.publish('python/CA171/email', 'netprogCA171 Korezy')
+        client.publish('python', 'Nama : gung Indra')
+        client.publish('python/CA171/mqtt', 'netprogCA171 ')
+        client.publish('python/CA171/socket', 'netprogCA171 ')
+        client.publish('python/CA171/email', 'netprogCA171 ')
  
 except KeyboardInterrupt:
     client.disconnect()
